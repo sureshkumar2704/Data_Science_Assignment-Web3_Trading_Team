@@ -70,6 +70,7 @@ In Google Colab, most libraries (except `gdown`) are pre-installed. Install `gdo
 
 1.  **Open the Notebook:**
     - In Google Colab: Go to [colab.research.google.com](https://colab.research.google.com), select "File" > "Open notebook" > "GitHub", and paste the repository URL to open `notebook1.ipynb`.
+    - Or [Click here](https://colab.research.google.com/drive/1N-4btCLDdJWacYbadR1VrhezswlrGXEO?usp=sharing) to open `notebook1.ipynb` directly. 
     - Locally: Open `notebook1.ipynb` in Jupyter Notebook/JupyterLab after cloning the repo.
 
 2.  **Install Dependencies (if needed):**
