@@ -1,0 +1,13 @@
+
+## Executive Summary: Web3 Trading Behavior vs. Market Sentiment
+
+This analysis investigated 412 trading days across Fear and Greed market sentiment regimes to uncover behavioral signals.
+
+### Key Findings:
+1.  **Profitability & Risk:** Average daily profitability was **$45.85** during **Greed** periods compared to **$32.23** during **Fear** periods. Risk-Adjusted Reward was also better in **Greed** phases.
+2.  **Behavioral Signals:** The Random Forest model identified **'Total_Volume_USD'** as the most important trader behavior metric for predicting the underlying market sentiment.
+3.  **Volume Skew:** Traders executed much higher total volume during **Fear** days compared to Greed days, suggesting a major behavioral divergence.
+4.  **Statistical Validation:** The difference in Total Daily PnL between Fear and Greed days was found to be **statistically significant** ($p=0.0246$).
+
+### Strategic Recommendation:
+The data suggests that traders, as a collective, tend to reduce volume but use **higher position ratios** (aggressiveness) during **Greed** periods, which, despite having more risk, is associated with a more favorable risk-adjusted return than Fear periods. Strategies should focus on managing volatility during Greed rather than avoiding the market entirely.
